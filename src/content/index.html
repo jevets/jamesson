@@ -22,56 +22,18 @@
 
 	<hr>
 
-	<h2>Steve Jamesson</h2>
-	<p>Full Stack Web Developer</p>
+        {% for person in site.people %}
+            <div class="person">
+                <h2>{{ person.name }}</h2>
+                <p>{{ person.title }}</p>
 
-	<ul class="links">
-		<li><a href="https://www.stevejamesson.com">SteveJamesson.com</a></li>
-		<li><a href="https://github.com/jevets">GitHub</a></li>
-		<li><a href="https://www.facebook.com/stevejamesson">Facebook</a></li>
-		<li><a href="https://twitter.com/stevejamesson">Twitter</a></li>
-	</ul>
-
-	<h2>Michelle Jamesson</h2>
-	<p>Harpist, Photographer, Illustrator</p>
-
-	<ul class="links">
-		<li><a href="http://www.michellejamesson.com/">MichelleJamesson.com</a></li>
-		<li><a href="https://www.ashevilleharpist.com/">AshevilleHarpist</a></li>
-		<li><a href="https://www.facebook.com/michelle.bonn">Facebook/Michelle.Bonn</a></li>
-		<li><a href="http://www.zazzle.com/mbr/238239881841484106/collections">Zazzle</a></li>
-		<li><a href="https://www.etsy.com/shop/SheShellDesigns">Etsy/SheShellDesigns</a></li>
-		<li><a href="https://www.threadless.com/@SheShellDesigns">Threadless/@SheShellDesigns</a></li>
-		<li><a href="https://www.facebook.com/AshevilleHarpist/">Facebook/AshevilleHarpist</a></li>
-	</ul>
-
-	<h2>Jim Jamesson</h2>
-	<p>Graphic Designer</p>
-
-	<ul class="links">
-		<li><a href="http://groovy.xyz">Groovy.xyz</a></li>
-	</ul>
-
-	<h2>Jimmy Jamesson (Sr.)</h2>
-	<p>Mechanical Engineer</p>
-
-	<ul class="links">
-		<li><a href="http://www.jimjamesson.com">JimJamesson.com</a></li>
-	</ul>
-
-	<h2>Christie Jamesson</h2>
-	<p>Writer</p>
-
-	<ul class="links">
-		<li><a href="https://mydomehome08.blogspot.com/">Dome Home Blog</a></li>
-	</ul>
-
-	<h2>Journey Jamesson</h2>
-	<p>Artist, Writer, Kid</p>
-	
-	<ul class="links">
-		<li><a href="https://www.facebook.com/profile.php?id=100010825298008">Facebook</a></li>
-	</ul>
+                <ul class="links">
+                    {% for link in person.links %}
+                        <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endfor %}
 
 </div>
 </body>

@@ -1,0 +1,73 @@
+title: Jamesson Family
+tagline: We are the Jamessons
+
+people:
+    stevejamesson:
+        name: Steve Jamesson
+        title: Full Stack Web Developer
+        links:
+            -
+                url: https://www.stevejamesson.com
+                label: SteveJamesson.com
+            -
+                url: https://github.com/jevets
+                label: GitHub
+            -
+                url: https://www.facebook.com/stevejamesson
+                label: Facebook
+            -
+                url: https://twitter.com/stevejamesson
+                label: Twitter
+    michellejamesson:
+        name: Michelle Bonn Jamesson
+        title: Harpist, Photographer, Illustrator
+        links:
+            -
+                url: http://www.michellejamesson.com/
+                label: Photography Blog
+            -
+                url: https://www.ashevilleharpist.com/
+                label: AshevilleHarpist.com
+            -
+                url: https://www.facebook.com/AshevilleHarpist/
+                label: Facebook (Harpist)
+            -
+                url: https://www.threadless.com/@SheShellDesigns
+                label: Threadless
+            -
+                url: https://www.etsy.com/shop/SheShellDesigns
+                label: Etsy
+            -
+                url: http://www.zazzle.com/mbr/238239881841484106/collections
+                label: Zazzle
+            -
+                url: https://www.facebook.com/michelle.bonn
+                label: Facebook
+    jimjamesson:
+        name: Jim Jamesson
+        title: Graphic Designer
+        links:
+            -
+                url: http://www.groovy.xyz
+                label: Groovy Graphic Design Work
+    jimmyjamesson:
+        name: Jimmy Jamesson (Sr.)
+        title: Mechanical Engineer
+        links:
+            -
+                url: http://www.jimjamesson.com
+                label: Engineering Portfolio
+    christiejamesson:
+        name: Christie Jamesson
+        title: Writer, Blogger
+        links:
+            -
+                url: https://mydomehome08.blogspot.com/
+                label: Dome Home Blog
+    journeyjamesson:
+        name: Journey Jamesson
+        title: Writer, Artist, Kiddo
+        links:
+            -
+                url: https://www.facebook.com/profile.php?id=100010825298008
+                label: Facebook
