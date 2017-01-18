@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "dev": "spress site:build --server --watch",
+        "deploy": "npm run build && ./deploy",
+        "build": "spress site:build"
+    }
+}
